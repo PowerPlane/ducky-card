@@ -32,15 +32,40 @@ static void disable_all_input_buffers() {
     // PA0 is UPDI -- leave alone.
 }
 
+// Start the PIT once and never wait on RTC.STATUS.
+//
+// This used to open with `while (RTC.STATUS != 0) {}`, start the PIT, and
+// stop it again on the way out. Measured Nov 2026: after a great-luck
+// reveal the card drew a dead-steady 3.7 mA with the LEDs off -- the CPU
+// flat out at 10 MHz -- where this function should have had it asleep.
+// Great and little luck call this for their hold, so the live-URL wait is
+// the SECOND call in a boot.
+//
+// The explanation that fits: on the tinyAVR 0/1-series the PIT and the
+// RTC are not independent (erratum "Disabling the RTC Stops the PIT"), and
+// megaTinyCore's errata notes describe this exact sequence ending with
+// RTC_CNTBUSY stuck at 1 and the wait never returning.
+//
+// So: no RTC.STATUS wait, and the PIT is started once and left counting,
+// which is the vendor's workaround. Each call only unmasks its interrupt.
+// See production-pond/src/sleepy.cpp for the longer note.
+static void pit_start_once() {
+    if (RTC.PITCTRLA & RTC_PITEN_bm) return;
+    RTC.CLKSEL   = RTC_CLKSEL_INT32K_gc;
+    RTC.PITCTRLA = RTC_PERIOD_CYC32768_gc | RTC_PITEN_bm;  // 1 Hz
+}
+
 void sleep_timed_seconds(uint8_t seconds) {
     if (seconds == 0) return;
 
-    while (RTC.STATUS != 0) { /* wait for any pending sync */ }
-    RTC.CLKSEL     = RTC_CLKSEL_INT32K_gc;
-    RTC.PITCTRLA   = RTC_PERIOD_CYC32768_gc | RTC_PITEN_bm;  // 1 Hz
-    RTC.PITINTCTRL = RTC_PI_bm;
+    pit_start_once();
 
+    // The PIT free-runs between calls, so a call after the first can come
+    // back up to 1 s early. Nothing here is timed tighter than that.
+    cli();
     s_pit_ticks_remaining = seconds;
+    RTC.PITINTFLAGS = RTC_PI_bm;  // a tick from while we were masked is stale
+    RTC.PITINTCTRL  = RTC_PI_bm;
 
     set_sleep_mode(SLEEP_MODE_PWR_DOWN);
     sleep_enable();
@@ -48,9 +73,9 @@ void sleep_timed_seconds(uint8_t seconds) {
     while (s_pit_ticks_remaining > 0) sleep_cpu();
     sleep_disable();
 
-    // Stop the PIT so it doesn't fire during a later sleep_forever().
+    // Mask the interrupt so it can't wake a later sleep. The PIT itself
+    // keeps counting.
     RTC.PITINTCTRL = 0;
-    RTC.PITCTRLA   = 0;
 }
 
 [[noreturn]] void sleep_forever() {
@@ -60,6 +85,11 @@ void sleep_timed_seconds(uint8_t seconds) {
     ADC0.CTRLA &= ~ADC_ENABLE_bm;
     ADC1.CTRLA &= ~ADC_ENABLE_bm;
     disable_all_input_buffers();
+
+    // Nothing needs the PIT again, so this is the one place it is safe to
+    // stop it: it takes the 32 kHz oscillator down with it (~1 uA).
+    RTC.PITINTCTRL = 0;
+    RTC.PITCTRLA   = 0;
 
     cli();  // no wake source desired -- stay asleep until coin pull
     set_sleep_mode(SLEEP_MODE_PWR_DOWN);
