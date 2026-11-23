@@ -27148,7 +27148,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -11.2467 11.1)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
@@ -27156,7 +27156,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -3.4787 3.4787)
-		(size 0.6 0.6)
+		(size 0.65 0.65)
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
@@ -27204,14 +27204,14 @@
 	(pad "1" smd roundrect
 		(at -6.7467 12.6)
 		(size 1.4 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "783c5a92-16c0-4e58-aba0-2dba4f45b5dd")
 	)
 	(pad "2" smd roundrect
 		(at -11.2467 12.6)
 		(size 1.4 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "7116e669-5ed7-42f3-a92a-6c24f02acef4")
 	)

@@ -5664,7 +5664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 67.31 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6237,7 +6237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6912,7 +6912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm"
+		(property "Footprint" "Ducky_V03:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm"
 			(at 128.27 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7615,7 +7615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCadPartFinder:MIC-SMD_4P-L2.8-W1.9_LMA2718B381-OA7"
+		(property "Footprint" "Ducky_V03:MIC-SMD_4P-L2.8-W1.9_LMA2718B381-OA7"
 			(at 39.37 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8249,7 +8249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 87.63 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10208,7 +10208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 67.31 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10501,7 +10501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10872,7 +10872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 25.4 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11680,7 +11680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+		(property "Footprint" "Ducky_V03:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
 			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15517,7 +15517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 151.13 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -16170,7 +16170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCadPartFinder:BAT-SMD_MY-2032-08"
+		(property "Footprint" "Ducky_V03:BAT-SMD_MY-2032-08"
 			(at 93.98 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16494,7 +16494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 25.4 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -18218,7 +18218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
+		(property "Footprint" "Ducky_V03:SOT23-3"
 			(at 172.72 134.62 0)
 			(hide yes)
 			(show_name no)

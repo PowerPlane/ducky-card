@@ -16,7 +16,7 @@ The Ducky business card (`business-card-v1`): a 2-layer PCB cut to standard busi
 
 ## Status
 
-- **Hardware**: V0-1 and V0-2 fabbed (KiCad 10); V0-3 is a routed prototype with switched mic/NFC power and a front touch electrode. See the [V0.3 review](../hardware/Ducky-Business-Card-V0-3/REVIEW.md) before assembly. See the table below.
+- **Hardware**: V0-1 and V0-2 fabbed (KiCad 10); V0-3 is a routed prototype with switched mic/NFC power and a front touch electrode. See the [V0.3 review](../hardware/Ducky-Business-Card-V0-3/REVIEW.md) before assembly. [Compare the original edit and revised layout visually](../hardware/Ducky-Business-Card-V0-3/checks/v03-before-after.png).
 - **Firmware**: bring-up and production environments in [`firmware/`](../firmware/).
 - **Enclosure**: see [`enclosure/`](../enclosure/).
 
@@ -32,4 +32,4 @@ Each board revision has its own folder under [`hardware/`](../hardware/). Open t
 
 A revision's `production/` folder holds the BOM (`bom.csv`), pick-and-place positions (`positions.csv`), designator map, IPC netlist, and the fab zip. V0-1 and V0-2 share the same BOM and MCU pin nets, so the firmware's `pins.h` fits both.
 
-V0-3 includes a project-local NFC antenna footprint with explicit electrical connections for its printed winding. Its duck touch and test-pad footprints come from kicad-libraries.
+V0-3 includes project-local antenna, holder, MOSFET, MCU, tag and microphone footprints. Its duck touch and test-pad footprints come from kicad-libraries.
