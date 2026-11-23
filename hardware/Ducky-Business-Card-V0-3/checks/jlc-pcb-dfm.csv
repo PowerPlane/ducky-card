@@ -1,0 +1,36 @@
+JLCDFM check,Danger,Warning,Good
+Sharp trace corner,0,1,0
+BGA pad,0,0,0
+Via placed within a pad,0,0,0
+Trace to board edge,0,0,0
+Trace spacing,0,1,26
+Trace spacing,0,1,2
+Unlabeled routing check (viewer row 7),0,90,2
+Unconnected trace end,0,0,0
+Trace width,0,0,97
+Fiducial,0,0,0
+Pad to board edge,0,0,0
+Unlabeled routing check (viewer row 12),0,4,52
+Pad spacing,0,4,33
+Unlabeled routing check (viewer row 14),2,94,0
+Plated through-hole to trace clearance,0,0,4
+Annular ring,0,98,0
+tht to smd,0,0,0
+Via to pad,0,0,0
+Soldermask bridge,0,0,22
+Solder mask opening exposing trace,0,41,9
+Soldermask opening with multiple segments,0,8,0
+Negative soldermask expansion,0,0,0
+Silkscreen to pad,2,5,12
+Silkscreen to hole,28,10,16
+Silkscreen line width,0,2,0
+Unconnected via,0,0,0
+Missing plated through-hole,0,0,0
+Unconnected via,0,0,0
+Plated through-hole spacing,0,0,0
+Pth without pad,0,0,0
+Short slot detection,0,0,0
+Slot width check,0,0,0
+Via to PTH spacing,0,0,0
+Via without pad,0,2,0
+Unconnected via,0,1,0

@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Ducky-Business-Card")
-		(date "2026-07-15")
-		(rev "0-2")
+		(date "2026-11-22")
+		(rev "0-3")
 		(company "PowerPlaneLLC")
 	)
 	(layers
@@ -199,7 +199,7 @@
 				(pins "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" smd custom
 			(at -3.668644 0)
@@ -613,7 +613,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965861.pdf"
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -664,7 +664,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UOC"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -678,7 +678,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C965860"
+		(property "LCSC" "C965861"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1190,6 +1190,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5d41183-bfa9-4287-96d1-3e12bd0e06e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Attrition Qty" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -1519,7 +1533,7 @@
 			(uuid "6e6f72b3-a781-47ee-8d10-d4421544460d")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1561,7 +1575,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965861.pdf"
 			(at 0 0 225)
 			(layer "B.Fab")
 			(hide yes)
@@ -1612,7 +1626,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UOC"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1626,7 +1640,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C965860"
+		(property "LCSC" "C965861"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2138,6 +2152,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "194f4fe1-9a5c-4823-9a23-f58afe28245d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Attrition Qty" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -2467,7 +2495,7 @@
 			(uuid "26d581d8-8120-42a9-96f7-c385ef04f590")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2509,7 +2537,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -2560,7 +2588,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3000,7 +3028,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -3051,7 +3079,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3491,7 +3519,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -3542,7 +3570,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3982,7 +4010,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4033,7 +4061,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4559,6 +4587,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5325adf1-dd0d-41ff-b85d-6be10d147fbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Attrition Qty" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -4888,7 +4930,7 @@
 			(uuid "2c5f1c02-9d5d-4ad3-93a8-e7de34fd7379")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4930,7 +4972,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 225)
 			(layer "B.Fab")
 			(hide yes)
@@ -4981,7 +5023,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5507,6 +5549,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2829e896-6c01-4886-b97a-a7d40bdadf83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Attrition Qty" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -5836,7 +5892,7 @@
 			(uuid "8de183ac-04de-4dad-ab66-7812f80bb8bb")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5878,7 +5934,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -5929,7 +5985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6369,7 +6425,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -6420,7 +6476,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6860,7 +6916,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 225)
 			(layer "B.Fab")
 			(hide yes)
@@ -6911,7 +6967,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7474,7 +7530,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 315)
 			(layer "B.Fab")
 			(hide yes)
@@ -7525,7 +7581,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7965,7 +8021,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -8016,7 +8072,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8542,6 +8598,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7bec508-f649-4f06-9d6f-e41767b1a593")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Attrition Qty" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -8871,7 +8941,7 @@
 			(uuid "fb599946-29a4-46b5-8dd0-684130b9b399")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8913,7 +8983,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -8964,7 +9034,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9404,7 +9474,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -9455,7 +9525,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9981,6 +10051,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "311e6387-73d3-43db-a133-15d68df5793f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Attrition Qty" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -10310,7 +10394,7 @@
 			(uuid "96b20df9-958c-446e-808b-b521264b6be3")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10354,7 +10438,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10396,7 +10480,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "100V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10410,7 +10494,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Tolerance" "100%"
+		(property "Tolerance" "±10%"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10798,7 +10882,7 @@
 			(uuid "46edbf54-b82f-455d-8143-8f2d1216a75c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0805.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11440,7 +11524,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11482,7 +11566,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "100V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11496,7 +11580,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Tolerance" "100%"
+		(property "Tolerance" "±10%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11884,7 +11968,7 @@
 			(uuid "2e9aff8e-1254-44cb-9040-db90c1c8be7b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/C_0805.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11991,7 +12075,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C965861"
+		(property "LCSC" "C965860"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12417,7 +12501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 45)
 			(layer "B.Fab")
 			(hide yes)
@@ -12468,7 +12552,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12908,7 +12992,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -12959,7 +13043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13706,6 +13790,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f25cb979-b455-4aea-9d01-6674aa73a363")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Attrition Qty" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -14035,7 +14133,7 @@
 			(uuid "2ff7eba8-479f-4203-82f1-3293dbb4514a")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14077,7 +14175,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 45)
 			(layer "B.Fab")
 			(hide yes)
@@ -14128,7 +14226,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14568,7 +14666,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 225)
 			(layer "B.Fab")
 			(hide yes)
@@ -14619,7 +14717,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15029,7 +15127,7 @@
 			)
 		)
 	)
-	(footprint "DavidLib_Mechanical:NFC_Mini_Antenna_22x22_ST25DV04K"
+	(footprint "Ducky_V03:NFC_Mini_Antenna_22x22"
 		(layer "B.Cu")
 		(uuid "ae336c82-f7e4-4660-9750-a5afa7acf79e")
 		(at 180.915 95.497658 -90)
@@ -15294,26 +15392,7 @@
 		)
 		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.4787 -3.4787)
-			(end -11.1 -11.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.Cu")
-			(uuid "9f94a839-38ae-4d3c-bb24-db00fa708350")
-		)
-		(fp_line
-			(start -11.1 -11.1)
-			(end -11.2467 -11.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.Cu")
-			(uuid "fc9c1fcc-b32d-4d02-9047-351078cc3b81")
-		)
+		(net_tie_pad_groups "1, 2")
 		(fp_line
 			(start 8.9933 10.6)
 			(end 8.5831 10.5978)
@@ -41335,16 +41414,6 @@
 			(uuid "83559757-6ab0-476e-b511-185db273b238")
 		)
 		(fp_line
-			(start -11.2467 -11.125)
-			(end -11.2467 -12.15)
-			(stroke
-				(width 0.2)
-				(type default)
-			)
-			(layer "B.Cu")
-			(uuid "04541fb7-e43f-4a9a-8105-e326cf3da8e5")
-		)
-		(fp_line
 			(start -12.25 12)
 			(end 12 12)
 			(stroke
@@ -42420,21 +42489,46 @@
 				(justify mirror)
 			)
 		)
-		(pad "" thru_hole circle
+		(pad "2" thru_hole circle
 			(at -11.2467 -11.1 270)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net "Net-(J1-Pin_2)")
 			(uuid "90923019-e98a-45d6-919f-6d9a748642a6")
 		)
-		(pad "" thru_hole circle
+		(pad "2" thru_hole circle
 			(at -3.4787 -3.4787 270)
 			(size 0.6 0.6)
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net "Net-(J1-Pin_2)")
 			(uuid "e6277ea9-7917-4e04-910e-f51879651821")
+		)
+		(pad "2" smd custom
+			(at -11.2467 -11.1 270)
+			(size 0.2 0.2)
+			(layers "F.Cu")
+			(net "Net-(J1-Pin_2)")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_line (start 7.768 7.6213) (end 0.1467 0) (width 0.2))
+				(gr_line (start 0.1467 0) (end 0 0) (width 0.2))
+			)
+			(uuid "e231dcb2-d889-4aa5-a2fc-67fd4b37a260")
+		)
+		(pad "2" smd custom
+			(at -11.2467 -11.1 270)
+			(size 0.2 0.2)
+			(layers "B.Cu")
+			(net "Net-(J1-Pin_2)")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_line (start 0 -0.025) (end 0 -1.05) (width 0.2))
+			)
+			(uuid "bf6250bf-0dff-474d-8115-6f063e193f5b")
 		)
 		(pad "1" smd roundrect
 			(at -6.7467 -12.6 270)
@@ -42533,6 +42627,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "97356eef-8760-4551-89da-38604b00520b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e8c6e8b-aec1-47b5-bca7-3c6288e7837c")
 			(effects
 				(font
 					(size 1 1)
@@ -43403,7 +43511,7 @@
 			(uuid "95cc0ab9-a6ed-45be-b641-17848e973818")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-20-1EP_3x3mm_P0.4mm_EP1.85x1.85mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43445,7 +43553,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 45)
 			(layer "B.Fab")
 			(hide yes)
@@ -43496,7 +43604,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -44022,6 +44130,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "14a2601f-9511-47b6-a405-f24a96bec75c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property "Attrition Qty" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -44351,7 +44473,7 @@
 			(uuid "b056937d-9b31-4794-93fa-ee2ad879dac2")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44393,7 +44515,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -44444,7 +44566,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -44884,7 +45006,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 315)
 			(layer "B.Fab")
 			(hide yes)
@@ -44935,7 +45057,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45364,7 +45486,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "ST25DV04K-IER8C3"
+		(property "Value" "ST25DV04KC-IE8C3"
 			(at 0 -2.05 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -45377,7 +45499,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/st25dv04k.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/st25dv04kc.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -45867,7 +45989,7 @@
 			(uuid "96f9c4a2-535a-405f-85fd-c3a62ea88a85")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45987,6 +46109,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8edbd1ed-0d0c-4a05-9d55-b2c8fb2ebdf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "148b918b-7ddc-49fa-82a4-a4bc9890b053")
 			(effects
 				(font
 					(size 1 1)
@@ -46324,7 +46460,7 @@
 			(uuid "22841efd-c843-457f-bec6-93a3452e2448")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Semiconductor-Standard.3dshapes/SOT-23.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46504,7 +46640,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25117.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46655,7 +46791,7 @@
 			(uuid "7ac5b825-c9f1-47c8-8f2f-c1b7fa8b394a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/R_0402.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46762,7 +46898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C965861"
+		(property "LCSC" "C965860"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47188,7 +47324,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
 			(at 0 0 315)
 			(layer "B.Fab")
 			(hide yes)
@@ -47239,7 +47375,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "XL-1606SURC"
+		(property "MPN" "XL-1606UYC"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47666,7 +47802,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001"
+		(property "Value" "MY-2032-08-R"
 			(at -10.873938 13.346697 180)
 			(layer "B.Fab")
 			(uuid "067309fe-665b-4c1f-be78-31e24a20a97e")
@@ -47678,7 +47814,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-001.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C964832.pdf"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -47690,7 +47826,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Single-cell battery, Linx BAT-HLD-001, Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+		(property "Description" "MYOUNG surface-mount CR2032 battery retainer"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)

@@ -1,0 +1,397 @@
+ERC report (2026-11-22T20:59:11, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(20.32 mm, 72.39 mm): Symbol Q1 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 80.01 mm): Symbol U1 Pin 20 [PA1, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(20.32 mm, 121.92 mm): Symbol Q5 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 90.17 mm): Symbol U1 Pin 6 [PA5, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(25.40 mm, 72.39 mm): Symbol Q1 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(25.40 mm, 121.92 mm): Symbol Q5 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(26.67 mm, 57.15 mm): Symbol LED1 [XL-1606SURC]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(26.67 mm, 106.68 mm): Symbol LED9 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(27.94 mm, 52.07 mm): Symbol LED1 Pin 2 [A, Unspecified, Line]
+    @(27.94 mm, 49.53 mm): Symbol #PWR04 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(27.94 mm, 62.23 mm): Symbol LED1 Pin 1 [K, Unspecified, Line]
+    @(27.94 mm, 67.31 mm): Symbol Q1 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(27.94 mm, 77.47 mm): Symbol Q1 Pin 2 [S, Unspecified, Line]
+    @(27.94 mm, 78.74 mm): Symbol #PWR01 Hidden pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(27.94 mm, 101.60 mm): Symbol LED9 Pin 2 [A, Unspecified, Line]
+    @(27.94 mm, 99.06 mm): Symbol #PWR013 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(27.94 mm, 111.76 mm): Symbol LED9 Pin 1 [K, Unspecified, Line]
+    @(27.94 mm, 116.84 mm): Symbol Q5 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(27.94 mm, 127.00 mm): Symbol Q5 Pin 2 [S, Unspecified, Line]
+    @(27.94 mm, 128.27 mm): Symbol #PWR014 Hidden pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(34.29 mm, 175.26 mm): Symbol U3 Pin 1 [OUT, Unspecified, Line]
+    @(228.60 mm, 100.33 mm): Symbol U1 Pin 15 [PC0, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(34.29 mm, 177.80 mm): Symbol U3 Pin 2 [GND, Unspecified, Line]
+    @(34.29 mm, 182.88 mm): Symbol U3 Pin 4 [GND, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(34.29 mm, 180.34 mm): Symbol U3 Pin 3 [VDD, Unspecified, Line]
+    @(73.66 mm, 179.07 mm): Symbol C1 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(34.29 mm, 182.88 mm): Symbol U3 Pin 4 [GND, Unspecified, Line]
+    @(31.75 mm, 190.50 mm): Symbol #PWR055 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(36.83 mm, 57.15 mm): Symbol LED2 [XL-1606SURC]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(36.83 mm, 106.68 mm): Symbol LED10 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(38.10 mm, 52.07 mm): Symbol LED2 Pin 2 [A, Unspecified, Line]
+    @(38.10 mm, 49.53 mm): Symbol #PWR05 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(38.10 mm, 62.23 mm): Symbol LED2 Pin 1 [K, Unspecified, Line]
+    @(27.94 mm, 67.31 mm): Symbol Q1 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(38.10 mm, 101.60 mm): Symbol LED10 Pin 2 [A, Unspecified, Line]
+    @(38.10 mm, 99.06 mm): Symbol #PWR015 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(38.10 mm, 111.76 mm): Symbol LED10 Pin 1 [K, Unspecified, Line]
+    @(48.26 mm, 111.76 mm): Symbol LED11 Pin 1 [K, Unspecified, Line]
+[lib_symbol_mismatch]: Symbol 'LMA2718B381-OA7' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(39.37 mm, 179.07 mm): Symbol U3 [LMA2718B381-OA7]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(40.64 mm, 72.39 mm): Symbol Q2 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 82.55 mm): Symbol U1 Pin 1 [PA2, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(45.72 mm, 72.39 mm): Symbol Q2 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(46.99 mm, 57.15 mm): Symbol LED3 [XL-1606SURC]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(46.99 mm, 106.68 mm): Symbol LED11 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(48.26 mm, 52.07 mm): Symbol LED3 Pin 2 [A, Unspecified, Line]
+    @(48.26 mm, 49.53 mm): Symbol #PWR06 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(48.26 mm, 62.23 mm): Symbol LED3 Pin 1 [K, Unspecified, Line]
+    @(48.26 mm, 67.31 mm): Symbol Q2 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(48.26 mm, 77.47 mm): Symbol Q2 Pin 2 [S, Unspecified, Line]
+    @(48.26 mm, 78.74 mm): Symbol #PWR02 Hidden pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(48.26 mm, 101.60 mm): Symbol LED11 Pin 2 [A, Unspecified, Line]
+    @(48.26 mm, 99.06 mm): Symbol #PWR016 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(48.26 mm, 111.76 mm): Symbol LED11 Pin 1 [K, Unspecified, Line]
+    @(58.42 mm, 111.76 mm): Symbol LED12 Pin 1 [K, Unspecified, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(57.15 mm, 57.15 mm): Symbol LED4 [XL-1606SURC]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(57.15 mm, 106.68 mm): Symbol LED12 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(58.42 mm, 52.07 mm): Symbol LED4 Pin 2 [A, Unspecified, Line]
+    @(58.42 mm, 49.53 mm): Symbol #PWR07 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(58.42 mm, 62.23 mm): Symbol LED4 Pin 1 [K, Unspecified, Line]
+    @(48.26 mm, 67.31 mm): Symbol Q2 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(58.42 mm, 101.60 mm): Symbol LED12 Pin 2 [A, Unspecified, Line]
+    @(58.42 mm, 99.06 mm): Symbol #PWR018 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(58.42 mm, 111.76 mm): Symbol LED12 Pin 1 [K, Unspecified, Line]
+    @(27.94 mm, 116.84 mm): Symbol Q5 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(62.23 mm, 72.39 mm): Symbol Q3 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 85.09 mm): Symbol U1 Pin 2 [PA3, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(62.23 mm, 121.92 mm): Symbol Q7 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 92.71 mm): Symbol U1 Pin 7 [PA6, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(67.31 mm, 72.39 mm): Symbol Q3 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(67.31 mm, 121.92 mm): Symbol Q7 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(68.58 mm, 57.15 mm): Symbol LED5 [XL-1606SURC]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(68.58 mm, 106.68 mm): Symbol LED13 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(69.85 mm, 52.07 mm): Symbol LED5 Pin 2 [A, Unspecified, Line]
+    @(69.85 mm, 49.53 mm): Symbol #PWR08 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(69.85 mm, 62.23 mm): Symbol LED5 Pin 1 [K, Unspecified, Line]
+    @(69.85 mm, 67.31 mm): Symbol Q3 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(69.85 mm, 77.47 mm): Symbol Q3 Pin 2 [S, Unspecified, Line]
+    @(69.85 mm, 78.74 mm): Symbol #PWR03 Hidden pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(69.85 mm, 101.60 mm): Symbol LED13 Pin 2 [A, Unspecified, Line]
+    @(69.85 mm, 99.06 mm): Symbol #PWR019 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(69.85 mm, 111.76 mm): Symbol LED13 Pin 1 [K, Unspecified, Line]
+    @(69.85 mm, 116.84 mm): Symbol Q7 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(69.85 mm, 127.00 mm): Symbol Q7 Pin 2 [S, Unspecified, Line]
+    @(69.85 mm, 128.27 mm): Symbol #PWR022 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(78.74 mm, 57.15 mm): Symbol LED6 [XL-1606SURC]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(78.74 mm, 106.68 mm): Symbol LED14 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(80.01 mm, 52.07 mm): Symbol LED6 Pin 2 [A, Unspecified, Line]
+    @(80.01 mm, 49.53 mm): Symbol #PWR09 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(80.01 mm, 62.23 mm): Symbol LED6 Pin 1 [K, Unspecified, Line]
+    @(69.85 mm, 67.31 mm): Symbol Q3 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(80.01 mm, 101.60 mm): Symbol LED14 Pin 2 [A, Unspecified, Line]
+    @(80.01 mm, 99.06 mm): Symbol #PWR023 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(80.01 mm, 111.76 mm): Symbol LED14 Pin 1 [K, Unspecified, Line]
+    @(90.17 mm, 111.76 mm): Symbol LED15 Pin 1 [K, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(82.55 mm, 72.39 mm): Symbol Q4 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 87.63 mm): Symbol U1 Pin 5 [PA4, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(87.63 mm, 72.39 mm): Symbol Q4 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(88.90 mm, 57.15 mm): Symbol LED7 [XL-1606SURC]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(88.90 mm, 106.68 mm): Symbol LED15 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(90.17 mm, 52.07 mm): Symbol LED7 Pin 2 [A, Unspecified, Line]
+    @(90.17 mm, 49.53 mm): Symbol #PWR010 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(90.17 mm, 62.23 mm): Symbol LED7 Pin 1 [K, Unspecified, Line]
+    @(90.17 mm, 67.31 mm): Symbol Q4 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(90.17 mm, 77.47 mm): Symbol Q4 Pin 2 [S, Unspecified, Line]
+    @(90.17 mm, 78.74 mm): Symbol #PWR011 Hidden pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(90.17 mm, 101.60 mm): Symbol LED15 Pin 2 [A, Unspecified, Line]
+    @(90.17 mm, 99.06 mm): Symbol #PWR024 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(90.17 mm, 111.76 mm): Symbol LED15 Pin 1 [K, Unspecified, Line]
+    @(100.33 mm, 111.76 mm): Symbol LED16 Pin 1 [K, Unspecified, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(99.06 mm, 57.15 mm): Symbol LED8 [XL-1606SURC]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(99.06 mm, 106.68 mm): Symbol LED16 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(100.33 mm, 52.07 mm): Symbol LED8 Pin 2 [A, Unspecified, Line]
+    @(100.33 mm, 49.53 mm): Symbol #PWR012 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(100.33 mm, 62.23 mm): Symbol LED8 Pin 1 [K, Unspecified, Line]
+    @(90.17 mm, 67.31 mm): Symbol Q4 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(100.33 mm, 101.60 mm): Symbol LED16 Pin 2 [A, Unspecified, Line]
+    @(100.33 mm, 99.06 mm): Symbol #PWR026 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(100.33 mm, 111.76 mm): Symbol LED16 Pin 1 [K, Unspecified, Line]
+    @(69.85 mm, 116.84 mm): Symbol Q7 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(104.14 mm, 121.92 mm): Symbol Q8 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 95.25 mm): Symbol U1 Pin 8 [PA7, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(109.22 mm, 121.92 mm): Symbol Q8 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(110.49 mm, 106.68 mm): Symbol LED17 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(111.76 mm, 101.60 mm): Symbol LED17 Pin 2 [A, Unspecified, Line]
+    @(111.76 mm, 99.06 mm): Symbol #PWR025 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(111.76 mm, 111.76 mm): Symbol LED17 Pin 1 [K, Unspecified, Line]
+    @(111.76 mm, 116.84 mm): Symbol Q8 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(111.76 mm, 127.00 mm): Symbol Q8 Pin 2 [S, Unspecified, Line]
+    @(111.76 mm, 128.27 mm): Symbol #PWR027 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(120.65 mm, 106.68 mm): Symbol LED18 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(121.92 mm, 101.60 mm): Symbol LED18 Pin 2 [A, Unspecified, Line]
+    @(121.92 mm, 99.06 mm): Symbol #PWR028 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(121.92 mm, 111.76 mm): Symbol LED18 Pin 1 [K, Unspecified, Line]
+    @(132.08 mm, 111.76 mm): Symbol LED19 Pin 1 [K, Unspecified, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(130.81 mm, 106.68 mm): Symbol LED19 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(132.08 mm, 101.60 mm): Symbol LED19 Pin 2 [A, Unspecified, Line]
+    @(132.08 mm, 99.06 mm): Symbol #PWR029 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(132.08 mm, 111.76 mm): Symbol LED19 Pin 1 [K, Unspecified, Line]
+    @(142.24 mm, 111.76 mm): Symbol LED20 Pin 1 [K, Unspecified, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(140.97 mm, 106.68 mm): Symbol LED20 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(142.24 mm, 101.60 mm): Symbol LED20 Pin 2 [A, Unspecified, Line]
+    @(142.24 mm, 99.06 mm): Symbol #PWR030 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(142.24 mm, 111.76 mm): Symbol LED20 Pin 1 [K, Unspecified, Line]
+    @(111.76 mm, 116.84 mm): Symbol Q8 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(146.05 mm, 121.92 mm): Symbol Q9 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 105.41 mm): Symbol U1 Pin 12 [PB2, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(151.13 mm, 121.92 mm): Symbol Q9 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(152.40 mm, 106.68 mm): Symbol LED21 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(153.67 mm, 101.60 mm): Symbol LED21 Pin 2 [A, Unspecified, Line]
+    @(153.67 mm, 99.06 mm): Symbol #PWR031 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(153.67 mm, 111.76 mm): Symbol LED21 Pin 1 [K, Unspecified, Line]
+    @(153.67 mm, 116.84 mm): Symbol Q9 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(153.67 mm, 127.00 mm): Symbol Q9 Pin 2 [S, Unspecified, Line]
+    @(153.67 mm, 128.27 mm): Symbol #PWR032 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(162.56 mm, 106.68 mm): Symbol LED22 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(163.83 mm, 101.60 mm): Symbol LED22 Pin 2 [A, Unspecified, Line]
+    @(163.83 mm, 99.06 mm): Symbol #PWR033 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(163.83 mm, 111.76 mm): Symbol LED22 Pin 1 [K, Unspecified, Line]
+    @(153.67 mm, 116.84 mm): Symbol Q9 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(167.64 mm, 121.92 mm): Symbol Q10 Pin 1 [G, Unspecified, Line]
+    @(259.08 mm, 107.95 mm): Symbol U1 Pin 11 [PB3, Bidirectional, Line]
+[lib_symbol_mismatch]: Symbol 'CJ3400' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(172.72 mm, 121.92 mm): Symbol Q10 [CJ3400]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(173.99 mm, 106.68 mm): Symbol LED23 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(175.26 mm, 101.60 mm): Symbol LED23 Pin 2 [A, Unspecified, Line]
+    @(175.26 mm, 99.06 mm): Symbol #PWR034 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(175.26 mm, 111.76 mm): Symbol LED23 Pin 1 [K, Unspecified, Line]
+    @(175.26 mm, 116.84 mm): Symbol Q10 Pin 3 [D, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(175.26 mm, 127.00 mm): Symbol Q10 Pin 2 [S, Unspecified, Line]
+    @(175.26 mm, 128.27 mm): Symbol #PWR036 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'XL-1606SURC' doesn't match copy in library 'KiCadPartFinder'
+    ; warning
+    @(184.15 mm, 106.68 mm): Symbol LED24 [XL-1606SURC]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(185.42 mm, 101.60 mm): Symbol LED24 Pin 2 [A, Unspecified, Line]
+    @(185.42 mm, 99.06 mm): Symbol #PWR035 Hidden pin 1 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(185.42 mm, 111.76 mm): Symbol LED24 Pin 1 [K, Unspecified, Line]
+    @(175.26 mm, 116.84 mm): Symbol Q10 Pin 3 [D, Unspecified, Line]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(259.08 mm, 110.49 mm): Label 'LED10'
+
+ ** ERC messages: 105  Errors 0  Warnings 105
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
