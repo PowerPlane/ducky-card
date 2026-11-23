@@ -11,121 +11,6 @@
 		(company "ByProduct Lab")
 	)
 	(lib_symbols
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -4603,7 +4488,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 100.33 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4636,7 +4521,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 105.41 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5038,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 100.33 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5071,7 +4956,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 105.41 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5396,7 +5281,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965861.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 173.99 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5429,7 +5314,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UOC"
+		(property "MPN" "XL-1606SURC"
 			(at 179.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5451,7 +5336,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965861"
+		(property "LCSC" "C965860"
 			(at 162.56 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -5664,7 +5549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 67.31 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5731,17 +5616,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 67.31 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 67.31 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5969,7 +5843,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 152.4 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6002,7 +5876,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6237,7 +6111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6304,17 +6178,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 45.72 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6542,7 +6405,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6575,7 +6438,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6819,7 +6682,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25117.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 212.09 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6901,7 +6764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ST25DV04KC-IE8C3"
+		(property "Value" "ST25DV04K-IER8C3"
 			(at 130.4133 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,7 +6775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm"
 			(at 128.27 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6923,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/st25dv04kc.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/st25dv04k.pdf"
 			(at 128.27 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7191,7 +7054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 110.49 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7224,7 +7087,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 115.57 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7615,7 +7478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:MIC-SMD_4P-L2.8-W1.9_LMA2718B381-OA7"
+		(property "Footprint" "KiCadPartFinder:MIC-SMD_4P-L2.8-W1.9_LMA2718B381-OA7"
 			(at 39.37 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -7903,7 +7766,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 68.58 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7936,7 +7799,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 73.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8249,7 +8112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 87.63 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8316,17 +8179,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 87.63 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 87.63 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8710,7 +8562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 38.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8743,7 +8595,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 43.18 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9068,7 +8920,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 132.08 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9101,7 +8953,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9481,7 +9333,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965860"
+		(property "LCSC" "C965861"
 			(at 173.99 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -9784,7 +9636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965861.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 163.83 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9817,7 +9669,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UOC"
+		(property "MPN" "XL-1606SURC"
 			(at 168.91 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9839,7 +9691,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965861"
+		(property "LCSC" "C965860"
 			(at 152.4 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -10208,7 +10060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 67.31 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10275,17 +10127,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 67.31 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 67.31 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10501,7 +10342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10568,17 +10409,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 109.22 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 109.22 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10872,7 +10702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 25.4 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10939,17 +10769,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 25.4 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 25.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11411,7 +11230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 142.24 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11444,7 +11263,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11680,7 +11499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+		(property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
 			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11715,17 +11534,6 @@
 			)
 		)
 		(property "LCSC" "C507118"
-			(at 243.84 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "-90"
 			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12007,7 +11815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 90.17 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12040,7 +11848,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 95.25 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12365,7 +12173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 48.26 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12398,7 +12206,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12957,7 +12765,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 80.01 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12990,7 +12798,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 85.09 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13237,7 +13045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 58.42 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13270,7 +13078,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13673,7 +13481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 38.1 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13706,7 +13514,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14419,7 +14227,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
 			(at 64.77 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14452,7 +14260,7 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "50V"
 			(at 66.04 182.8862 0)
 			(hide yes)
 			(show_name no)
@@ -14464,7 +14272,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "100%"
 			(at 66.04 185.4262 0)
 			(hide yes)
 			(show_name no)
@@ -14912,7 +14720,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965860"
+		(property "LCSC" "C965861"
 			(at 184.15 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -15282,7 +15090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:NFC_Mini_Antenna_22x22"
+		(property "Footprint" "DavidLib_Mechanical:NFC_Mini_Antenna_22x22_ST25DV04K"
 			(at 151.13 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -15517,7 +15325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 151.13 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15584,17 +15392,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 151.13 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 151.13 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15900,7 +15697,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15933,7 +15730,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 63.5 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16158,7 +15955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MY-2032-08-R"
+		(property "Value" "Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001"
 			(at 100.33 181.9274 0)
 			(hide yes)
 			(show_name no)
@@ -16170,7 +15967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:BAT-SMD_MY-2032-08"
+		(property "Footprint" "KiCadPartFinder:BAT-SMD_MY-2032-08"
 			(at 93.98 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16181,7 +15978,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C964832.pdf"
+		(property "Datasheet" "https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-001.pdf"
 			(at 93.98 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16192,7 +15989,7 @@
 				)
 			)
 		)
-		(property "Description" "MYOUNG surface-mount CR2032 battery retainer"
+		(property "Description" "Single-cell battery, Linx BAT-HLD-001, Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
 			(at 93.98 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16357,17 +16154,6 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C964832"
-			(at 93.98 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0a1a7cd6-ca48-41b1-9e87-16eda917b7c5")
 		)
@@ -16494,7 +16280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 25.4 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16561,17 +16347,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 25.4 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 25.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16877,7 +16652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 80.01 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16910,7 +16685,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 85.09 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17157,7 +16932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 48.26 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17190,7 +16965,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 53.34 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17437,7 +17212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 68.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17470,7 +17245,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 73.66 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17717,7 +17492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 90.17 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17750,7 +17525,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 95.25 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18218,7 +17993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ducky_V03:SOT23-3"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-3"
 			(at 172.72 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -18285,17 +18060,6 @@
 			)
 		)
 		(property "LCSC" "C19019"
-			(at 172.72 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "180"
 			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -18600,7 +18364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28233.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
 			(at 74.93 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -18633,7 +18397,7 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "50V"
 			(at 76.2 182.8862 0)
 			(hide yes)
 			(show_name no)
@@ -18645,7 +18409,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "±10%"
+		(property "Tolerance" "100%"
 			(at 76.2 185.4262 0)
 			(hide yes)
 			(show_name no)
@@ -18882,7 +18646,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965862.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965860.pdf"
 			(at 121.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18915,7 +18679,7 @@
 				)
 			)
 		)
-		(property "MPN" "XL-1606UYC"
+		(property "MPN" "XL-1606SURC"
 			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -19123,9 +18887,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9fb2c15-c940-400b-9ac0-0b82239c37be")
 		(property "Reference" "SW1"
@@ -19277,38 +19041,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(wire (pts (xy 85.09 176.53) (xy 93.98 176.53)) (stroke (width 0) (type default)) (uuid "6bfa9ea9-176a-4bdd-9515-f72404e1e678"))
-	(junction (at 93.98 176.53) (diameter 0) (color 0 0 0 0) (uuid "be9264e5-74d6-4ae1-ac3f-dbf80533672d"))
-	(symbol
-        (lib_id "power:PWR_FLAG") (at 85.09 176.53 0) (unit 1)
-        (in_bom no) (on_board no) (in_pos_files no) (dnp no)
-        (uuid "9b1305a6-a1c4-4536-8834-c6fac05f070d")
-        (property "Reference" "#FLG01" (at 85.09 176.53 0) (hide yes) (effects (font (size 1.27 1.27))))
-        (property "Value" "PWR_FLAG" (at 85.09 172.33 0) (effects (font (size 1.0 1.0))))
-        (pin "1" (uuid "5d45af38-7dd4-4fed-95f4-e3a4f5acd503"))
-        (instances (project "Ducky-Business-Card-V0-3" (path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750" (reference "#FLG01") (unit 1))))
-    )
-	(wire (pts (xy 85.09 186.69) (xy 93.98 186.69)) (stroke (width 0) (type default)) (uuid "a66b021a-4078-4b50-9739-b0fde9b47ebd"))
-	(junction (at 93.98 186.69) (diameter 0) (color 0 0 0 0) (uuid "92e9b056-7e92-485f-a5cf-4465e2631bbc"))
-	(symbol
-        (lib_id "power:PWR_FLAG") (at 85.09 186.69 0) (unit 1)
-        (in_bom no) (on_board no) (in_pos_files no) (dnp no)
-        (uuid "a64dae33-4cd0-43d3-8b36-bbe173698678")
-        (property "Reference" "#FLG02" (at 85.09 186.69 0) (hide yes) (effects (font (size 1.27 1.27))))
-        (property "Value" "PWR_FLAG" (at 85.09 182.49 0) (effects (font (size 1.0 1.0))))
-        (pin "1" (uuid "7edeb1f4-7b89-49fb-bfbb-4b98f780f790"))
-        (instances (project "Ducky-Business-Card-V0-3" (path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750" (reference "#FLG02") (unit 1))))
-    )
-	(wire (pts (xy 208.28 99.06) (xy 208.28 102.87)) (stroke (width 0) (type default)) (uuid "fb6667c8-5437-410c-aa72-f69ddb739b8a"))
-	(symbol
-        (lib_id "power:PWR_FLAG") (at 208.28 99.06 0) (unit 1)
-        (in_bom no) (on_board no) (in_pos_files no) (dnp no)
-        (uuid "2fb7c68d-8f6f-44e0-bd0c-8ce41697805c")
-        (property "Reference" "#FLG03" (at 208.28 99.06 0) (hide yes) (effects (font (size 1.27 1.27))))
-        (property "Value" "PWR_FLAG" (at 208.28 94.86 0) (effects (font (size 1.0 1.0))))
-        (pin "1" (uuid "095b7370-c340-4e57-9b43-7fe25cebfba7"))
-        (instances (project "Ducky-Business-Card-V0-3" (path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750" (reference "#FLG03") (unit 1))))
-    )
-	(no_connect (at 138.43 177.8) (uuid "02513fff-ff81-4e5e-9c5a-9a7bfd7e2415"))
-	(no_connect (at 259.08 113.03) (uuid "416f21ca-d309-44bc-8aa9-53d6f5676e6c"))
 )
