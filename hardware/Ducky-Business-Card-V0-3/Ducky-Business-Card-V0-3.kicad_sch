@@ -5,9 +5,9 @@
 	(uuid "e088f94f-c07d-4aad-9ed5-0a552f1b9750")
 	(paper "A4")
 	(title_block
-		(title "Ducky Business Card")
-		(date "2026-07-15")
-		(rev "0-2")
+		(title "Ducky Fortune Card")
+		(date "2026-11-17")
+		(rev "0-3")
 		(company "ByProduct Lab")
 	)
 	(lib_symbols
@@ -1732,6 +1732,315 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-Resistor:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+				(at 0 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at -1.27 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" "RES-07856"
+				(at 0 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -1.143 -1.016) (xy -1.524 0) (xy -1.905 1.016) (xy -2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.381 -1.016) (xy 0 0) (xy -0.381 1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.905 -1.016) (xy 1.524 0) (xy 1.143 1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-Switch:Capacitive Button"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Capacitive Button"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Switch:Pad-CapacitiveTouch"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Copper Touch Pad"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun switch lever"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitive Button_0_0"
+				(circle
+					(center 0 3.048)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitive Button_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_fab:Battery-Holder_Coin-Cell_CR2032_Linx_BAT-HLD-001"
 			(pin_numbers
 				(hide yes)
@@ -3098,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 180.34) (xy 34.29 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61780585-485c-44f8-8b04-d8a284c66228")
+	)
+	(wire
+		(pts
 			(xy 38.1 111.76) (xy 38.1 113.03)
 		)
 		(stroke
@@ -3145,6 +3464,16 @@
 			(type default)
 		)
 		(uuid "6a7a1ff3-a827-457d-aef1-b057d713877c")
+	)
+	(wire
+		(pts
+			(xy 208.28 102.87) (xy 209.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1aebf6-2942-4d2e-8f4b-4da79d41d128")
 	)
 	(wire
 		(pts
@@ -3378,7 +3707,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 175.26) (xy 34.29 175.26)
+			(xy 30.48 175.26) (xy 34.29 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3395,6 +3724,16 @@
 			(type default)
 		)
 		(uuid "aad40661-c23b-402a-92d7-65d57f52ed6b")
+	)
+	(wire
+		(pts
+			(xy 115.57 182.88) (xy 118.11 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad78c6d6-84fa-47ad-a0b0-44ad3a7b04a9")
 	)
 	(wire
 		(pts
@@ -3468,6 +3807,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 102.87) (xy 228.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1c1785-d058-4885-8bda-c4202db64b65")
+	)
+	(wire
+		(pts
 			(xy 185.42 99.06) (xy 185.42 101.6)
 		)
 		(stroke
@@ -3485,16 +3834,6 @@
 			(type default)
 		)
 		(uuid "c33c264c-e8f7-4231-a7c3-b64a1a04b1dd")
-	)
-	(wire
-		(pts
-			(xy 16.51 180.34) (xy 34.29 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61a72ce-9785-486e-82d3-030a08de1f08")
 	)
 	(wire
 		(pts
@@ -3538,7 +3877,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 170.18) (xy 73.66 179.07)
+			(xy 73.66 173.99) (xy 73.66 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3615,6 +3954,16 @@
 			(type default)
 		)
 		(uuid "e96e0eb3-ed82-45e5-9fa7-1b4d97c90ef5")
+	)
+	(wire
+		(pts
+			(xy 223.52 107.95) (xy 228.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d5c0bd-a0fd-4059-a720-10c1b0302c39")
 	)
 	(wire
 		(pts
@@ -3696,15 +4045,15 @@
 		)
 		(uuid "fd62805b-39ba-41f9-866f-c1921fd25f05")
 	)
-	(wire
-		(pts
-			(xy 16.51 170.18) (xy 16.51 180.34)
+	(label "MIC_NFC_PWR"
+		(at 30.48 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd93e9f4-89df-4f59-9e35-63478147aa6a")
+		(uuid "0261fd3d-d126-4618-adc4-4103defa85b0")
 	)
 	(label "LED9"
 		(at 167.64 121.92 180)
@@ -3725,6 +4074,16 @@
 			(justify right bottom)
 		)
 		(uuid "23a82bdc-62e7-41fe-84e0-25ddc06abc90")
+	)
+	(label "GPO"
+		(at 228.6 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "360ad05c-37c1-495b-bdc4-7dffebe3633a")
 	)
 	(label "LED7"
 		(at 259.08 95.25 0)
@@ -3816,6 +4175,16 @@
 		)
 		(uuid "6ecf068f-1d03-47f5-8c59-682ffafd3ce7")
 	)
+	(label "MIC_NFC_PWR"
+		(at 128.27 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "700c9540-ec3c-4795-9f5f-daf8f3cc2332")
+	)
 	(label "LED3"
 		(at 259.08 85.09 0)
 		(effects
@@ -3876,8 +4245,18 @@
 		)
 		(uuid "970432dd-a33c-436e-b18c-511a4cb2e07a")
 	)
+	(label "MIC_NFC_PWR"
+		(at 208.28 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4042d52-4c41-46a0-a589-ab5fa4ff77c2")
+	)
 	(label "MIC_ANALOG"
-		(at 31.75 175.26 180)
+		(at 30.48 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3905,6 +4284,16 @@
 			(justify right bottom)
 		)
 		(uuid "c2e4b564-f7f9-449e-b7e1-e9b41fbfc0f2")
+	)
+	(label "GPO"
+		(at 115.57 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c35751a8-e5ef-4fe6-9d87-b89bbfad0146")
 	)
 	(label "LED10"
 		(at 259.08 110.49 0)
@@ -3935,6 +4324,16 @@
 			(justify right bottom)
 		)
 		(uuid "ebe4499f-8cb5-441a-bb33-9f9d8a67f44d")
+	)
+	(label "MIC_NFC_PWR"
+		(at 73.66 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eef3e596-66aa-46ca-b811-1cfdd071fc28")
 	)
 	(label "LED4"
 		(at 82.55 72.39 180)
@@ -4474,84 +4873,6 @@
 			(project "Ducky-Business-Card-V0-3"
 				(path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
-		(at 16.51 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cdc6628-0651-4e94-8a53-bb2ea6246957")
-		(property "Reference" "#PWR054"
-			(at 16.51 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 16.51 166.37 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 16.51 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0182ed04-77e9-4609-9083-9568ab6fe215")
-		)
-		(instances
-			(project "Ducky-Business-Card-V0-3"
-				(path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6314,6 +6635,107 @@
 			(project "Ducky-Business-Card-V0-3"
 				(path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750"
 					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Resistor:R")
+		(at 213.36 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "320f76e5-b1d5-4fc4-9d28-e509561e6506")
+		(property "Reference" "R1"
+			(at 213.36 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 213.36 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 213.36 107.442 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 212.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-07856"
+			(at 213.36 109.728 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 213.36 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2e4e1e8-976e-457c-9988-809bb7d09f78")
+		)
+		(pin "2"
+			(uuid "ebb6f5e1-7076-4f56-928a-470d761da123")
+		)
+		(instances
+			(project "Ducky-Business-Card-V0-3"
+				(path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -18460,8 +18882,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
-		(at 73.66 170.18 0)
+		(lib_id "PCM_SparkFun-Switch:Capacitive Button")
+		(at 223.52 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18469,11 +18891,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f437c957-88ef-4ec1-8193-3dd503c11e21")
-		(property "Reference" "#PWR060"
-			(at 73.66 173.99 0)
-			(hide yes)
+		(uuid "f9fb2c15-c940-400b-9ac0-0b82239c37be")
+		(property "Reference" "SW1"
+			(at 221.742 109.982 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18482,18 +18902,18 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 73.66 166.37 0)
+		(property "Value" "Capacitive Button"
+			(at 221.742 112.522 90)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 170.18 0)
+		(property "Footprint" "DavidLib_Switch:Ducky_Left_12mm_Overall"
+			(at 231.14 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18504,7 +18924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 170.18 0)
+			(at 233.68 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18514,8 +18934,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 73.66 176.53 0)
+		(property "Description" "Copper Touch Pad"
+			(at 236.22 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18526,12 +18946,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8289a374-0a48-49a9-8c70-00fce02fc073")
+			(uuid "5a4013db-5951-41f1-a309-746e3052a0fa")
 		)
 		(instances
 			(project "Ducky-Business-Card-V0-3"
 				(path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750"
-					(reference "#PWR060")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -18610,84 +19030,6 @@
 			(project "Ducky-Business-Card-V0-3"
 				(path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
-		(at 128.27 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe05d6ef-c881-4044-bfee-98def3fa1475")
-		(property "Reference" "#PWR056"
-			(at 128.27 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 128.27 166.37 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 128.27 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8dab1054-86ea-4326-abae-3096dfc097bb")
-		)
-		(instances
-			(project "Ducky-Business-Card-V0-3"
-				(path "/e088f94f-c07d-4aad-9ed5-0a552f1b9750"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
