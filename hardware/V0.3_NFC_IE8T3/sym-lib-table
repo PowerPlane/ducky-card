@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Ducky_NFC")(type "KiCad")(uri "${KIPRJMOD}/Ducky_NFC.kicad_sym")(options "")(descr "Project symbols: 8-pin ST25DV04KC in TSSOP-8"))
+)
